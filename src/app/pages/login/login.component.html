@@ -1,0 +1,17 @@
+<mat-card>
+	<mat-card-header>
+		<mat-card-title>Login</mat-card-title>
+	</mat-card-header>
+	<form [formGroup]="data" (ngSubmit)="login()">
+		<mat-card-content>
+			<mat-form-field>
+				<input matInput placeholder="Username">
+			</mat-form-field>
+
+			<mat-form-field>
+				<input matInput placeholder="Password">
+			</mat-form-field>
+		</mat-card-content>
+		<button type="submit" mat-stroked-button color="primary" class="btn-block">Login</button>
+	</form>
+</mat-card>
