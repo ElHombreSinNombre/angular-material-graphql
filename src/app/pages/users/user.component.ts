@@ -20,8 +20,4 @@ export class UserComponent implements OnInit {
       )
       .subscribe();
   }
-
-  displayedColumns: string[] = ['albumId', 'id', 'title', 'url' ,'thumbnailUrl'];
-  dataSource = this.users;
-
 }
