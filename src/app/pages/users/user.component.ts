@@ -12,12 +12,18 @@ export class UserComponent implements OnInit {
 
   constructor(private UserService: UserService) { }
   users!: UserInterface[];
+  loading: boolean = true;
 
   ngOnInit(): void {
     this.UserService.getProducts()
       .pipe(
         tap((users: UserInterface[]) => this.users = users)
       )
-      .subscribe();
+      .subscribe(data => {
+        this.loading = false;
+      });
   }
+
+  displayedColumns: string[] = ['albumId', 'id', 'title', 'url', 'thumbnailUrl', 'action'];
+
 }
