@@ -1,6 +1,13 @@
 
 html, body { height: 100%; }
 
+.center-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 /* Background */
 
 body {
@@ -36,3 +43,9 @@ html::-webkit-scrollbar-thumb:active {
     background: rgba(68, 68, 68, 1);
     border-radius: 10px;
 }
+
+//Form
+
+.full-width-field {
+    width: 100%;
+ }
