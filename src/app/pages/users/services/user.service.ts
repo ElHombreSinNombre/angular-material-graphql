@@ -11,6 +11,6 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   getProducts(): Observable<UserInterface[]> {
-    return this.http.get<UserInterface[]>(this.url+'photos?_start=0&_limit=10');
+    return this.http.get<UserInterface[]>(`${this.url}photos?_start=0&_limit=10`);
   }
 }
