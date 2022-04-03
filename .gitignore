@@ -46,4 +46,4 @@ testem.log
 Thumbs.db
 
 ## DB
-db.js
+db.ts
