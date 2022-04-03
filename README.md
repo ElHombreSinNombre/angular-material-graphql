@@ -1,11 +1,15 @@
 ## Angular
 
-Execute
+To execute
 
     npm install
     ng serve
 
-### Frontend 
+To deploy
+
+    npm run build | npm run dev
+
+### Frontend
 
 - **[Angular Material](https://material.angular.io/)**
 
@@ -14,4 +18,3 @@ Execute
    - **[MongoDB Cloud](https://www.mongodb.com/cloud)**
 - **[GraphQL](https://graphql.org/)**
    - **[Apollo Angular](https://apollo-angular.com)**
-
