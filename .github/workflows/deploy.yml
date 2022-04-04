@@ -15,10 +15,10 @@
             node-version: 16
         - name: Install packages
           run: npm i
-        - name: Install Angular  
+        - name: Install Angular
           run: npm install -g @angular/cli > /dev/null
         - name: Build
-          run:  ng build --prod --output-path=dist --base-href="https://elhombresinnombre.github.io/angular-material-graphql/"
+          run:  ng build --base-href="https://elhombresinnombre.github.io/angular-material-graphql/"
         - name: Deploy
           uses: JamesIves/github-pages-deploy-action@v4.2.5
           with:
