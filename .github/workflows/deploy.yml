@@ -15,7 +15,7 @@
             node-version: 16
         - name: Install packages
           run: npm i
-        - name: Install Angular
+        - name: Install Angular CLI
           run: npm install -g @angular/cli > /dev/null
         - name: Build
           run:  ng build --base-href="https://elhombresinnombre.github.io/angular-material-graphql/"
