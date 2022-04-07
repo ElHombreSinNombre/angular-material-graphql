@@ -18,3 +18,4 @@ To deploy
    - **[MongoDB Cloud](https://www.mongodb.com/cloud)**
 - **[GraphQL](https://graphql.org/)**
    - **[Apollo Angular](https://apollo-angular.com)**
+- **[NGRX](https://ngrx.io/)**
